@@ -27,16 +27,20 @@ class Board extends Component {
         <Table>
           <thead>
             <tr>
-              <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Username</th>
+              <th />
+              <th>A</th>
+              <th>B</th>
+              <th>C</th>
+              <th>D</th>
+              <th>E</th>
+              <th>F</th>
+              <th>G</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>Mark</td>
+              <td onClick={console.log("Mark")}>Mark</td>
               <td>Otto</td>
               <td>@mdo</td>
             </tr>
